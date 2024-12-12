@@ -7,6 +7,8 @@ int main (){
 	fgets(chuoi,100,stdin);
 	for(int i=0;i<strlen(chuoi);i++){
 		if(chuoi[i]==' '){
+			if(chuoi[i+1]!=' '){
+
 			dem++;
 		}
 	}
